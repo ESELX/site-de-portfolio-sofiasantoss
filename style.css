@@ -172,7 +172,7 @@ blockquote:before
 
 .content-1170
 {
-    max-width: 1170px;
+    max-width: 1300px;
     position: relative;
 }
 
@@ -510,9 +510,9 @@ body.blog .more-posts
 
 .single-post .resume-entry-content
 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 40px;
-    font-family: 'PT Serif', serif;
+    font-family:  'Montserrat', sans-serif, Arial;
     letter-spacing: 0;
 }
 
@@ -594,9 +594,9 @@ body.blog .more-posts
 
 .single-post .entry-content
 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 40px;
-    font-family: 'PT Serif', serif;
+    font-family:  'Montserrat', sans-serif, Arial;
     letter-spacing: 0;
     padding-top: 70px;
 }
