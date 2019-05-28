@@ -1,144 +1,177 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <title>Sofia Santos portfólio</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Template by Colorlib" />
-        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-        <meta name="author" content="Colorlib" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="shortcut icon" href="images/favicon.png" />
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
-        <link rel="stylesheet" type="text/css"  href='css/common.css' />
-        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
-        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
-        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
-        <link rel="stylesheet" type="text/css"  href='style.css' />
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--[if lt IE 9]>
-                <script src="js/html5.js"></script>
-        <![endif]-->
+    <!-- Title -->
+    <title>Sofia Santos</title>
 
-    </head>
+    
+     <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/1.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
-    <body class="contact page page-template-default">
-        <div class="doc-loader"></div>
+</head>
 
-        <!-- <div class="content-1170 header-holder center-relative">
-            <div class="header-logo left">
-                <a href="index.html">
-                    <img src="images/katt_default_logo.png" alt="Katt">
-                </a>
-            </div> -->
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
 
-            <div class="header-menu">
-                <div class="toggle-holder relative">
-                    <div id="toggle">
-                        <div class="one"></div>
-                        <div class="two"></div>
-                        <div class="three"></div>
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        
                     </div>
                 </div>
-
-                <nav id="header-main-menu" class="big-menu">
-                    <ul class="main-menu sm sm-clean">
-                        <li><a href="index.html">Hey</a></li>
-                        <li><a href="about.html">Sobre Mim</a></li>
-                        <!-- <li><a href="about2.html">About 2</a></li>
-                        <li><a href="about3.html">About 3</a></li> -->
-                        <li><a href="contact.html" class="current">Contacto</a>
-                            <!-- <ul class="sub-menu">
-                                <li><a href="contact2.html">Contact + Map</a></li>
-                            </ul> -->
-                        </li>
-                    </ul>
-                </nav>
-                <div class="clear"></div>
             </div>
-            <div class="clear"></div>
         </div>
+    </div>
 
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
 
-        <div id="content" class="site-content">
+                       
 
-            <div class="header-image">
-                <h1 class="entry-title">Sabe mais</h1>
-                <img src="demo-images/12.jpg" alt="">
-            </div>
-            <article class="content-1170 center-relative">
-                <div class="content-wrapper">
-                    <div class="entry-content">
-                        <div class="one_half ">
-                            <p><strong>Entra em contacto</strong></p>
-                            <p>Contacta-me para qualquer questão ou duvida</p>
-                            <br>
-                            <p>Estou disponível para novos projetos e oportunidades</p>
-                            <br>
-                            <p>
-                                <span style="color: #cdc8c1;">Morada:</span>&nbsp;Caldas da Rainha, Portugal
-                                <br>
-                                <span style="color: #cdc8c1;">Telemóvel:</span> (+351) 913 666 782
-                                <!-- <br>
-                                <span style="color: #cdc8c1;">Hours:</span> 6:00 am – 2:00 am
-                                <br> -->
-                            </p>
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
                         </div>
-                        <div class="one_half last ">
-                            <div class="contact-form">
-                                <p><input id="name" type="text" name="your-name" placeholder="Nome"></p>
-                                <p><input id="contact-email" type="email" name="your-email" placeholder="Email"></p>
-                                <p><input id="subject" type="text" name="your-subject" placeholder="Assunto"></p>
-                                <p><textarea id="message" name="your-message" placeholder="Mensagem"></textarea></p>
-                                <p><input type="submit" onClick="SendMail()" value="ENVIAR"></p>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./about.html">Sobre</a></li>
+									<li><a href="./blog.html">Projetos</a></li>
+                                    <li class="active"><a href="./contact.html">Contactos</a></li>
+                                </ul>
+
+                               
+                            <!-- Nav End -->
                         </div>
-                        <div class="clear"></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/12.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title">Contactos</h2>
+                        <nav aria-label="breadcrumb">
+                            
+                        </nav>
                     </div>
                 </div>
-            </article>
-
-        </div>
-
-        <!--Footer-->
-
-        <footer class="footer">
-            <div class="content-1170 center-relative">
-                <ul>
-                    <!-- <li class="left-footer-content">
-                        © 2018 All rights reserved. | Katt HTML Template <i class="fa fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>.
-                    </li> -->
-                    <li class="center-footer-content">
-                    </li>
-                  </li>
-                  <li class="right-footer-content">
-                        <a href="https://www.instagram.com/sophisantoss/">Instagram</a>
-                        <a href="https://www.linkedin.com/in/sofia-santos-631287121/">Linkedin</a>
-                        <a href="https://www.behance.net/sofiavpsb6f1">Behance</a>
-                  </li>
-                    <!-- <li class="left-footer-content mobile">
-                        © 2018 All rights reserved. | Katt HTML Template <i class="fa fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>.
-                    </li> -->
-                </ul>
             </div>
-        </footer>
-
-
-
-        <div class="fixed scroll-top">
-            <img src="images/back_to_top.png" alt="Go Top">
         </div>
+    </section>
+    <!-- Breadcrumb Area End -->
 
+    <!-- Contact Area Start -->
+    <div class="contact-area section-padding-80-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h2 class="contact-title mb-30">Let’s Work <br>Together</h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Contact Info -->
+                    <div class="contact-info mb-30">
+                        <p>Email</p>
+                        <a href="mailto:info.deercreative@gmail.com">sofia.vps@hotmail.com</a>
+                    </div>
+                    <!-- Contact Info -->
+                    <div class="contact-info mb-30">
+                        <p>Contacto Telefónico</p>
+                        <a href="#">+351 913 666 782</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 ">
+                </div>
+            </div>
+        </div>
+		
+    </div>
+    <!-- Contact Area End -->
 
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
-        <script type="text/javascript" src="js/queryloader2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.carouFredSel-6.0.0-packed.js"></script>
-        <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
-        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+   
+
+    <!-- Follow Area Start -->
+    <div class="follow-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Follow Instagram</h2>
+                        <p>@Sophisantoss</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Follow Area End -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+                      <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
 </html>
